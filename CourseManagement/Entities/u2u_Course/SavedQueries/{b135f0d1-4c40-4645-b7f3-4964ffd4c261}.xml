@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b135f0d1-4c40-4645-b7f3-4964ffd4c261}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="u2u_title" select="1" icon="1" preview="1">
+        <row name="result" id="u2u_courseid">
+          <cell name="u2u_title" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="u2u_course">
+          <attribute name="u2u_courseid" />
+          <attribute name="u2u_title" />
+          <attribute name="createdon" />
+          <order attribute="u2u_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="u2u_title" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Courses" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

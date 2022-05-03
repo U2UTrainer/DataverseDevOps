@@ -1,0 +1,9 @@
+{
+  "environmentvariablevalues": {
+    "environmentvariablevalue": {
+      "@environmentvariablevalueid": "778a7515-cda6-ec11-b3fe-000d3ad84bbd",
+      "iscustomizable": "1",
+      "value": "textanalyticsdemo.cognitiveservices.azure.com"
+    }
+  }
+}

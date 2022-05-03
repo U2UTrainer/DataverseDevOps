@@ -1,0 +1,4 @@
+<organizationsetting settingdefinitionid.uniquename="u2u_EnableCourseSchedulerpreview">
+  <iscustomizable>1</iscustomizable>
+  <value>true</value>
+</organizationsetting>

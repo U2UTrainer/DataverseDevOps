@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_u2u_course" />
+  <EntityRelationship Name="FileAttachment_u2u_Course_u2u_Manual" />
+  <EntityRelationship Name="lk_u2u_course_createdby" />
+  <EntityRelationship Name="lk_u2u_course_modifiedby" />
+  <EntityRelationship Name="owner_u2u_course" />
+  <EntityRelationship Name="team_u2u_course" />
+  <EntityRelationship Name="u2u_Course_Trainer_Contact" />
+  <EntityRelationship Name="user_u2u_course" />
+</EntityRelationships>

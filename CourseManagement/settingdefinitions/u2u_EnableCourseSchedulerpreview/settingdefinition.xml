@@ -1,0 +1,19 @@
+<settingdefinition uniquename="u2u_EnableCourseSchedulerpreview">
+  <datatype>2</datatype>
+  <defaultvalue>false</defaultvalue>
+  <description default="Test Custom Setting">
+    <label description="Test Custom Setting" languagecode="1033" />
+  </description>
+  <displayname default="Enable Course Scheduler (preview)">
+    <label description="Enable Course Scheduler (preview)" languagecode="1033" />
+  </displayname>
+  <informationurl>https://www.u2u.be</informationurl>
+  <iscustomizable>0</iscustomizable>
+  <ishidden>1</ishidden>
+  <isoverridable>1</isoverridable>
+  <isplatform>0</isplatform>
+  <overridablelevel>0</overridablelevel>
+  <releaselevel>2</releaselevel>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</settingdefinition>

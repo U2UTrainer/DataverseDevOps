@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{df007a79-a490-ec11-8d20-0022489d3d56}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{826b9edb-7a31-45c6-aa85-1ee7378c68d9}" IsUserDefined="1" labelid="{ce5a6d1b-34e1-42c2-9a4f-6749da09c210}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{aa76da74-e5dc-4dae-bfc8-8df75f177388}" labelid="{e3790127-45ba-4efe-8c99-720320e8684c}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{376c2859-8654-4e97-8ba7-efc1d3bde5a9}" labelid="{a710ecd0-edf4-4473-968f-850e3d9ad9a7}">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="u2u_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="u2u_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{685b96d5-1e8a-4ffd-94c5-52bc500f45e6}" labelid="{b609d181-feca-434b-949e-e450d32cb586}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e35a9f9e-f7bb-4af4-841a-31cb021fa838}" locklevel="0" colspan="1" rowspan="1" labelid="{aca4b1d3-51be-4d53-bcc1-64c81049c34e}">
+                        <labels>
+                          <label description="Technology" languagecode="1033" />
+                        </labels>
+                        <control id="u2u_technology" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="u2u_technology" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="75746f01-895a-488b-a57d-4c15c959a438" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{0f8b3eea-9157-406f-87e3-7ffee2338ad9}">
+          <labels>
+            <label description="Info" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="e6c518e4-8592-43e5-b7b8-25cf0a9cf541" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{d230a1a6-56c5-432c-b3ec-34a7ed9f8e78}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a7755c01-30fe-4b79-a35d-4cb3a4b69415}" locklevel="0" colspan="1" rowspan="1" labelid="{74796bcb-6bc4-4100-8076-84a007315326}">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="u2u_duration" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="u2u_duration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3c2174aa-12b9-4784-afe6-ad8a8364ad2a}" locklevel="0" colspan="1" rowspan="1" labelid="{0520d3f3-b3ce-4cea-b6e1-13abb2924c39}">
+                        <labels>
+                          <label description="Trainer" languagecode="1033" />
+                        </labels>
+                        <control id="u2u_trainer" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="u2u_trainer" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b0c1955-0a20-41ed-a218-24aea53cd9c2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Manual" languagecode="1033" />
+                        </labels>
+                        <control id="u2u_manual" classid="{0A7FF475-B016-4687-9CE5-042BFDBD6519}" datafieldname="u2u_manual" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{b91d6cea-6a2d-44ce-92af-730377d76689}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fe7aa2ec-9fe7-4f55-ac85-3376d9d64d5f}" showlabel="false" labelid="{5249e1eb-90fa-4c77-8f48-943ba4b9465c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{68a616de-a96c-43b5-8039-93d7f196d1ca}" showlabel="false" labelid="{532c889f-b7b8-4006-b71e-dab394b6d551}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2b65f942-8b58-4a19-acbb-dbfb3834fda8}" showlabel="false" labelid="{f397cf49-a01e-4909-a742-0ccf25132f18}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0987e1ff-15f6-439f-b88e-1d764ce02486}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1d14ef7c-671f-4fad-9054-8c0c52f35d37}" showlabel="false" labelid="{82eaf5c0-03c3-4319-8a10-713af435234d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{03805e6f-9b28-4ab4-9b0d-ad8cab5c77d1}" showlabel="false" labelid="{e9401dae-93fd-45aa-a92d-f560f5114ed3}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{028e99b5-50a9-40e6-bd12-5b081a29e6c1}" showlabel="false" labelid="{baec4ed9-c7f2-472d-9859-6ee0f8a44bbc}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="WEB - Course main form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
