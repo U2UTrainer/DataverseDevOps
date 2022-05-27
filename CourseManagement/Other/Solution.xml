@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.22041.157" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.22044.142" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>CourseManagement</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Course Management" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.428</Version>
+    <Version>1.0.0.438</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>U2U</UniqueName>
@@ -81,23 +81,17 @@
       <RootComponent type="1" schemaName="contact" behavior="1" />
       <RootComponent type="1" schemaName="u2u_course" behavior="0" />
       <RootComponent type="9" schemaName="u2u_technology" behavior="0" />
+      <RootComponent type="61" schemaName="u2u_test.html" behavior="0" />
       <RootComponent type="62" schemaName="u2u_CourseManagement" behavior="0" />
-      <RootComponent type="80" schemaName="u2u_CourseManagement" behavior="0" />
       <RootComponent type="300" schemaName="u2u_custompage_64243" behavior="0" />
+      <RootComponent type="300" schemaName="u2u_democomponents_3e375" behavior="0" />
+      <RootComponent type="300" schemaName="u2u_library_bf7ed" behavior="0" />
       <RootComponent type="372" id="{9d4e135d-7fd8-4836-8141-76f5292188c8}" schemaName="u2u_5Fsentiment-20demo-20v2" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent type="80" schemaName="u2u_CourseManagement" displayName="Course Management" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2203.4013)" />
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2204.4006)" />
         <Dependent type="60" displayName="Course main form" parentDisplayName="Course" id="{b98e9d20-19a1-ec11-b3fe-000d3ab9c2b2}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="SettingDefinition" displayName="EnablePowerBIQuickReport" solution="SettingDefinitionsData (9.1.22034.220322001)" id.uniquename="EnablePowerBIQuickReport" />
-        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=u2u_CourseManagement,settingdefinitionid.uniquename=EnablePowerBIQuickReport" id.parentappmoduleid.uniquename="u2u_CourseManagement" id.settingdefinitionid.uniquename="EnablePowerBIQuickReport" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

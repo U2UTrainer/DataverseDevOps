@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>u2u_library_bf7ed</Name>
+  <AppVersion>2022-05-27T08:00:21Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22053.15.0</CreatedByClientVersion>
+  <MinClientVersion>3.22053.15.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.22053.15","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false","sienaVersion":"20220527T071602Z-3.22053.15.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(251,101,60,255)</BackgroundColor>
+  <DisplayName>U2UComponentLibrary</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[{"appComponentName":"81fe3becabbb451c90d7a665b5cfdc2d","displayName":"U2UHeader","appName":"441e0165-728b-4289-88f4-b1b5a5447c0c","appVersion":"2022-05-27T08:00:21Z","appComponentLibraryLogicalName":"u2u_library_bf7ed","appDisplayName":"U2UComponentLibrary","environmentName":"057b4935-6c90-4e5a-b885-a7d24f027a21","owner":{"id":"25715082-a40a-41d7-a5c1-35a64d096cb5","displayName":"Trainer","email":"trainer@u2u365.onmicrosoft.com","type":"User","tenantId":"c13f6e78-545e-4878-a61a-4887d80c3f28","userPrincipalName":"trainer@u2u365.onmicrosoft.com"},"allowCustomization":true,"createdOn":"2022-05-27T07:16:02.905Z","lastModifiedOn":"2022-05-27T07:59:45.524Z","connectionReferences":{},"databaseReferences":{}},{"appComponentName":"fc04718e4886421e820caf9ecf900bc8","displayName":"Component1","appName":"441e0165-728b-4289-88f4-b1b5a5447c0c","appVersion":"2022-05-27T08:00:21Z","appComponentLibraryLogicalName":"u2u_library_bf7ed","appDisplayName":"U2UComponentLibrary","environmentName":"057b4935-6c90-4e5a-b885-a7d24f027a21","owner":{"id":"25715082-a40a-41d7-a5c1-35a64d096cb5","displayName":"Trainer","email":"trainer@u2u365.onmicrosoft.com","type":"User","tenantId":"c13f6e78-545e-4878-a61a-4887d80c3f28","userPrincipalName":"trainer@u2u365.onmicrosoft.com"},"allowCustomization":true,"createdOn":"2022-05-27T07:16:02.905Z","lastModifiedOn":"2022-05-27T07:59:45.524Z","connectionReferences":{},"databaseReferences":{}}]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>1</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/u2u_library_bf7ed_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/u2u_library_bf7ed_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
