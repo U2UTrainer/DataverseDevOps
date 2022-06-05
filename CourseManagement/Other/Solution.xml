@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.22044.142" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.22052.150" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>CourseManagement</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Course Management" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.438</Version>
+    <Version>1.0.0.440</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>U2U</UniqueName>
@@ -90,7 +90,7 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2204.4006)" />
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2205.2010)" />
         <Dependent type="60" displayName="Course main form" parentDisplayName="Course" id="{b98e9d20-19a1-ec11-b3fe-000d3ab9c2b2}" />
       </MissingDependency>
     </MissingDependencies>
